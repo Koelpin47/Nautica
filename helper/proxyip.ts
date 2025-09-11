@@ -23,9 +23,9 @@ interface ProxyTestResult {
 
 let myGeoIpString: any = null;
 
-const KV_PAIR_PROXY_FILE = "./proxy-kv.json";
-const RAW_PROXY_LIST_FILE = "./proxy.txt";
-const PROXY_LIST_FILE = "./proxy-true.txt";
+const KV_PAIR_PROXY_FILE = "./proxy_kv.json";
+const RAW_PROXY_LIST_FILE = "./proxy_raw.txt";
+const PROXY_LIST_FILE = "./proxy_true.txt";
 const IP_RESOLVER_DOMAIN = "myip.ipeek.workers.dev";
 const IP_RESOLVER_PATH = "/";
 const CONCURRENCY = 99;
